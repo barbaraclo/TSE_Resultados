@@ -5,8 +5,8 @@
 Este projeto tem como objetivo automatizar alguns fluxos do aplicativo "Resultados" do TSE. 
 
 Realizado por:
-Bárbara Lima
-Nikollas Filgueiras
+
+Bárbara Lima e Nikollas Filgueiras
 
 ___
 
@@ -74,3 +74,20 @@ pytest
 ```
 ___
 
+📝  **Report**
+
+Para gerar um report da execução, use esse comando quando for rodar o pytest:
+
+```
+pytest --html=report.html  
+```
+
+Depois da execução, um arquivo "report.html" será gerado na pasta principal do projeto. 
+Para verificar o report, clique nele e abra no browser que você utiliza.
+
+___
+
+🎬 **Video da execução**
+
+Neste link é possível visualizar a execução dos testes:
+https://drive.google.com/file/d/1Bcl7ZEGm70v9JgGq1pZQC52NsXBfsEIZ/view?usp=sharing
